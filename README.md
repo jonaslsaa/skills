@@ -20,3 +20,9 @@ A collection of custom agent skills that I use.
   ```
   npx skills@latest add jonaslsaa/skills/tanstack-start
   ```
+
+- **componentize** — Break up large React files into well-organized components. Pragmatic extraction with clear placement rules — avoids over-splitting.
+
+  ```
+  npx skills@latest add jonaslsaa/skills/componentize
+  ```
