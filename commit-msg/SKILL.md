@@ -2,6 +2,7 @@
 name: commit-msg
 description: Generate a commit message for uncommitted changes. Extracts JIRA ticket from branch name, validates branch context, follows repo commit style. Use when user wants a commit message written or suggested.
 argument-hint: [optional extra context]
+disable-model-invocation: true
 ---
 
 Generate a 1-sentence commit message for all uncommitted changes. Do NOT actually commit — only output the message.
