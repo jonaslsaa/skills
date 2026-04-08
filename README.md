@@ -26,3 +26,9 @@ A collection of custom agent skills that I use.
   ```
   npx skills@latest add jonaslsaa/skills/componentize
   ```
+
+- **frontend-design**
+
+  ```
+  npx skills@latest add https://github.com/anthropics/skills --skill frontend-design
+  ```
