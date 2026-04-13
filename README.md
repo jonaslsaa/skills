@@ -32,3 +32,7 @@ A collection of custom agent skills that I use.
   ```
   npx skills@latest add https://github.com/anthropics/skills --skill frontend-design
   ```
+- **grill-me** — Get relentlessly interviewed about a plan or design until every branch of the decision tree is resolved.
+  ```
+  npx skills@latest add mattpocock/skills/grill-me
+  ```
