@@ -2,12 +2,7 @@
 # Agent Skills
 A collection of custom agent skills that I use.
 
-
-- **commit-msg** — Generate a commit message for uncommitted changes. Extracts JIRA ticket from branch name, validates branch context, follows repo commit style.
-
-  ```
-  npx skills@latest add jonaslsaa/skills/commit-msg
-  ```
+## Frontend
 
 - **fix-use-effects** — Identify and fix unnecessary `useEffect` usage in React components.
 
@@ -32,7 +27,18 @@ A collection of custom agent skills that I use.
   ```
   npx skills@latest add https://github.com/anthropics/skills --skill frontend-design
   ```
+
+## Other
+
 - **grill-me** — Get relentlessly interviewed about a plan or design until every branch of the decision tree is resolved.
   ```
   npx skills@latest add mattpocock/skills/grill-me
+  ```
+
+## Work
+
+- **commit-msg** — Generate a commit message for uncommitted changes. Extracts JIRA ticket from branch name, validates branch context, follows repo commit style.
+
+  ```
+  npx skills@latest add jonaslsaa/skills/commit-msg
   ```
